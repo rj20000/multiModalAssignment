@@ -26,14 +26,14 @@ drive.mount('/content/drive')
 
 # Unzip the dataset (run only once)
 !unzip -q "/content/drive/MyDrive/memotion_dataset_7k.zip" -d "/content/drive/MyDrive/"
-
-
+```
 
 
 # Set the data path
+```
 DATA_DIR = "/content/drive/MyDrive/memotion_dataset_7k"
 print("Dataset ready:", DATA_DIR)
-
+```
 
 4. Run the Notebook
 
