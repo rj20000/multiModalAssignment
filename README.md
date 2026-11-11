@@ -35,7 +35,7 @@ DATA_DIR = "/content/drive/MyDrive/memotion_dataset_7k"
 print("Dataset ready:", DATA_DIR)
 ```
 
-4. Run the Notebook
+### 4. Run the Notebook
 
 Run all cells from top to bottom.
 The notebook will:
@@ -45,13 +45,13 @@ Train Image-only, Text-only, Early Fusion, and Late Fusion models
 Evaluate and plot results
 
 
-Requirements
+### Requirements
 The notebook is designed for Google Colab. All required libraries (PyTorch, Transformers, scikit-learn, etc.) are pre-installed in Colab.
 
-Results
+### Results
 Late Fusion achieved the highest Macro F1 (≈0.35) on the test set. All models struggled with the minority Negative class due to class imbalance.
 
-Reproducibility
+### Reproducibility
 Stratified 70/15/15 split
 Frozen openai/clip-vit-base-patch32 for feature extraction
 Early stopping based on validation Macro F1
