@@ -47,12 +47,11 @@ Evaluate and plot results
 
 Requirements
 The notebook is designed for Google Colab. All required libraries (PyTorch, Transformers, scikit-learn, etc.) are pre-installed in Colab.
+
 Results
 Late Fusion achieved the highest Macro F1 (≈0.35) on the test set. All models struggled with the minority Negative class due to class imbalance.
+
 Reproducibility
-
-
-
 Stratified 70/15/15 split
 Frozen openai/clip-vit-base-patch32 for feature extraction
 Early stopping based on validation Macro F1
